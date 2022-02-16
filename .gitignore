@@ -1,0 +1,9 @@
+## Files
+*.log
+*.orig
+/packages/*/package-lock.json
+
+## Folders
+/.idea
+/node_modules
+/packages/*/node_modules

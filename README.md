@@ -7,13 +7,15 @@ StyleLint shareable config for the Sass style guide.
 
 ## Install
 
-    npm install stylelint-config-unsass stylelint --save-dev
+```shell
+npm install stylelint-config-unsass stylelint --save-dev
+```
 
 ## Usage
 
 Create ``.stylelintrc`` file on root of your project.
 
-```
+```json
 {
     "extends": [
         "stylelint-config-unsass"

@@ -20,7 +20,7 @@
         "semantic-release": "^19.0.2",
         "stylelint": "^14.5.1",
         "stylelint-config-standard": "^25.0.0",
-        "stylelint-config-recommended-scss": "^5.0.2"
+        "stylelint-config-recommended-scss": "^6.0.0"
     },
     "files": [
         "index.js"

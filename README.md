@@ -2,6 +2,7 @@
 
 [![Version](https://flat.badgen.net/npm/v/stylelint-config-unsass)](https://www.npmjs.com/package/stylelint-config-unsass)
 [![Download](https://flat.badgen.net/npm/dt/stylelint-config-unsass)](https://www.npmjs.com/package/stylelint-config-unsass)
+[![License](https://flat.badgen.net/npm/license/stylelint-config-unsass)](https://www.npmjs.com/package/stylelint-config-unsass)
 
 StyleLint shareable config for the Sass style guide.
 

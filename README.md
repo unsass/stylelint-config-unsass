@@ -9,7 +9,7 @@ StyleLint shareable config for the Sass style guide.
 ## Install
 
 ```shell
-npm install stylelint-config-unsass stylelint --save-dev
+npm install stylelint stylelint-config-unsass --save-dev
 ```
 
 ## Usage

@@ -1,21 +1,13 @@
 export default {
+    plugins: [
+        '@stylistic/stylelint-plugin'
+    ],
     extends: [
         '@front-factory/stylelint-config'
     ],
     rules: {
-        'at-rule-name-space-after': 'always',
         'at-rule-no-unknown': null,
         'at-rule-no-vendor-prefix': true,
-        'at-rule-semicolon-space-before': 'never',
-        'block-closing-brace-newline-after': [
-            'always',
-            {
-                'ignoreAtRules': [
-                    'if',
-                    'else'
-                ]
-            }
-        ],
         'declaration-property-unit-allowed-list': {
             'font-size': [
                 'em',
@@ -24,7 +16,6 @@ export default {
                 '%'
             ]
         },
-        'function-parentheses-newline-inside': 'never-multi-line',
         'function-url-quotes': [
             'always',
             {
@@ -41,6 +32,18 @@ export default {
                     'include'
                 ]
             }
-        ]
+        ],
+        '@stylistic/at-rule-name-space-after': 'always',
+        '@stylistic/at-rule-semicolon-space-before': 'never',
+        '@stylistic/block-closing-brace-newline-after': [
+            'always',
+            {
+                'ignoreAtRules': [
+                    'if',
+                    'else'
+                ]
+            }
+        ],
+        '@stylistic/function-parentheses-newline-inside': 'never-multi-line'
     }
 };

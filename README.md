@@ -14,14 +14,12 @@ npm install stylelint stylelint-config-unsass --save-dev
 
 ## Usage
 
-Create ``.stylelintrc`` file on root of your project.
+Create ``stylelint.config.js`` file on root of your project.
 
-```json
-{
-    "extends": [
-        "stylelint-config-unsass"
-    ]
-}
+```js
+"extends": [
+    "stylelint-config-unsass"
+]
 ```
 
 You can extend the rules with your own config,

@@ -2,14 +2,14 @@
     "name": "stylelint-config-unsass",
     "description": "StyleLint shareable config for the Sass style guide.",
     "version": "1.0.1",
+    "type": "module",
     "scripts": {
-        "prepare": "husky install",
+        "prepare": "husky",
         "release": "semantic-release"
     },
     "main": "index.js",
     "engines": {
-        "node": ">=16.0.0",
-        "npm": ">=8.0.0"
+        "node": ">=18"
     },
     "devDependencies": {
         "@commitlint/cli": "^19.8.1",

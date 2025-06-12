@@ -1,27 +1,8 @@
-'use strict';
-
-module.exports = {
-    'extends': [
-        'stylelint-config-standard',
-        'stylelint-config-recommended-scss'
+export default {
+    extends: [
+        '@front-factory/stylelint-config'
     ],
-    'rules': {
-        'alpha-value-notation': 'number',
-        'at-rule-empty-line-before': [
-            'always',
-            {
-                'except': [
-                    'blockless-after-same-name-blockless',
-                    'first-nested'
-                ],
-                'ignore': [
-                    'after-comment'
-                ],
-                'ignoreAtRules': [
-                    'else'
-                ]
-            }
-        ],
+    rules: {
         'at-rule-name-space-after': 'always',
         'at-rule-no-unknown': null,
         'at-rule-no-vendor-prefix': true,
@@ -35,9 +16,6 @@ module.exports = {
                 ]
             }
         ],
-        'block-no-empty': null,
-        'color-function-notation': 'modern',
-        'declaration-no-important': true,
         'declaration-property-unit-allowed-list': {
             'font-size': [
                 'em',
@@ -55,8 +33,6 @@ module.exports = {
                 ]
             }
         ],
-        'indentation': 4,
-        'max-line-length': null,
         'max-nesting-depth': [
             3,
             {
@@ -65,24 +41,6 @@ module.exports = {
                     'include'
                 ]
             }
-        ],
-        'selector-attribute-quotes': 'always',
-        'selector-class-pattern': null,
-        'shorthand-property-no-redundant-values': true,
-        'string-quotes': 'double',
-
-        // Scss rules.
-        'scss/comment-no-loud': true,
-        'scss/double-slash-comment-empty-line-before': [
-            'always',
-            {
-                'ignore': [
-                    'between-comments',
-                    'stylelint-commands'
-                ]
-            }
-        ],
-        'scss/double-slash-comment-whitespace-inside': 'always',
-        'scss/selector-no-redundant-nesting-selector': true
+        ]
     }
 };

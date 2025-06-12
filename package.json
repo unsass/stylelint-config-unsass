@@ -7,10 +7,10 @@
         "prepare": "husky",
         "release": "semantic-release"
     },
-    "main": "index.js",
     "engines": {
         "node": ">=18"
     },
+    "exports": "./index.js",
     "devDependencies": {
         "@commitlint/cli": "^19.8.1",
         "@commitlint/config-conventional": "^19.8.1",
@@ -20,9 +20,8 @@
         "semantic-release": "^24.2.5"
     },
     "dependencies": {
-        "stylelint": "^16.20.0",
-        "stylelint-config-recommended-scss": "^15.0.1",
-        "stylelint-config-standard": "^38.0.0"
+        "@front-factory/stylelint-config": "^1.8.0",
+        "stylelint": "^16.20.0"
     },
     "files": [
         "index.js"

@@ -20,7 +20,7 @@
         "semantic-release": "^24.2.6"
     },
     "dependencies": {
-        "@front-factory/stylelint-config": "^1.8.0",
+        "@front-factory/stylelint-config": "^1.11.0",
         "@stylistic/stylelint-plugin": "^3.1.2",
         "stylelint": "^16.20.0"
     },

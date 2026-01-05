@@ -16,8 +16,10 @@
         "@commitlint/config-conventional": "^20.3.0",
         "@semantic-release/changelog": "^6.0.3",
         "@semantic-release/git": "^10.0.1",
+        "@semantic-release/github": "^12.0.2",
+        "conventional-changelog-conventionalcommits": "^9.1.0",
         "husky": "^9.1.7",
-        "semantic-release": "^25.0.1"
+        "semantic-release": "^25.0.2"
     },
     "dependencies": {
         "@front-factory/stylelint-config": "^1.12.0",

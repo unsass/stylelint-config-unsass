@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.3.0](https://github.com/unsass/stylelint-config-unsass/compare/v2.2.0...v2.3.0) (2026-01-06)
+
+### Dependencies
+
+* **deps:** bump to `@front-factory/stylelint-config` 1.12.1 ([9d86779](https://github.com/unsass/stylelint-config-unsass/commit/9d86779db50f1971d59d487452d1795c551e571f))
+
 ## 2.2.0 (2025-09-04)
 
 * chore(deps): bump to `semantic-release` 24.2.7 ([29cb7b5](https://github.com/unsass/stylelint-config-unsass/commit/29cb7b5))

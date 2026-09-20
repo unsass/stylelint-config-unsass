@@ -10,6 +10,7 @@
     "engines": {
         "node": ">=22"
     },
+    "main": "index.js",
     "exports": "./index.js",
     "devDependencies": {
         "@commitlint/cli": "^21.2.3",
@@ -32,6 +33,7 @@
     "keywords": [
         "sass",
         "stylelint",
+        "stylelint-config",
         "unsass",
         "front-end"
     ],

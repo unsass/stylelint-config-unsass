@@ -17,9 +17,11 @@ npm install stylelint stylelint-config-unsass --save-dev
 Create ``stylelint.config.js`` file on root of your project.
 
 ```js
-"extends": [
-    "stylelint-config-unsass"
-]
+export default {
+    extends: [
+        'stylelint-config-unsass'
+    ]
+};
 ```
 
 You can extend the rules with your own config,

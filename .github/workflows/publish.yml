@@ -37,6 +37,6 @@ jobs:
         run: npm ci --ignore-scripts --no-audit
 
       - name: Release
+        run: npm run release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npm run release

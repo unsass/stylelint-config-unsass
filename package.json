@@ -35,6 +35,7 @@
         "unsass",
         "front-end"
     ],
+    "author": "Front Factory",
     "license": "MIT",
     "homepage": "https://github.com/unsass/stylelint-config-unsass",
     "bugs": {

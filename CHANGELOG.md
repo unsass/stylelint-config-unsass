@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.4.0](https://github.com/unsass/stylelint-config-unsass/compare/v2.3.0...v2.4.0) (2026-09-20)
+
+### Dependencies
+
+* **deps:** bump to `stylelint` 17.15.0 and its shared configs ([55e6a50](https://github.com/unsass/stylelint-config-unsass/commit/55e6a5081fc3e61271e2949dc18d26d0d4836217))
+* **deps:** move `stylelint` to peer dependencies ([02a5f44](https://github.com/unsass/stylelint-config-unsass/commit/02a5f44d0c3bc13cbbf281a3096db028f186b514))
+* **deps:** require node >=22 ([d5ff60a](https://github.com/unsass/stylelint-config-unsass/commit/d5ff60a5d921d89a6d8c510baf924929c83017a1))
+
 ## [2.3.0](https://github.com/unsass/stylelint-config-unsass/compare/v2.2.0...v2.3.0) (2026-01-06)
 
 ### Dependencies
